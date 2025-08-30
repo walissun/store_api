@@ -6,6 +6,8 @@ from store.core.exceptions import NotFoundException
 from store.schemas.product import ProductIn, ProductOut, ProductUpdate, ProductUpdateOut
 from store.usecases.product import ProductUsecase
 
+
+
 router = APIRouter(tags=["products"])
 
 

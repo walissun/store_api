@@ -9,6 +9,8 @@ from tests.factories import product_data, products_data
 from httpx import AsyncClient
 
 
+
+
 @pytest.fixture(scope="session")
 def event_loop():
     loop = asyncio.get_event_loop_policy().new_event_loop()

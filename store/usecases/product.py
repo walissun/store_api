@@ -8,6 +8,7 @@ from store.schemas.product import ProductIn, ProductOut, ProductUpdate, ProductU
 from store.core.exceptions import NotFoundException
 
 
+
 class ProductUsecase:
     def __init__(self) -> None:
         self.client: AsyncIOMotorClient = db_client.get()

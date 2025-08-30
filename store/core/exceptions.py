@@ -6,5 +6,6 @@ class BaseException(Exception):
             self.message = message
 
 
+
 class NotFoundException(BaseException):
     message = "Not Found"

@@ -5,6 +5,7 @@ from pydantic import AfterValidator, Field
 from store.schemas.base import BaseSchemaMixin, OutSchema
 
 
+
 class ProductBase(BaseSchemaMixin):
     name: str = Field(..., description="Product name")
     quantity: int = Field(..., description="Product quantity")
